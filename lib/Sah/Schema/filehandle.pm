@@ -6,7 +6,7 @@ package Sah::Schema::filehandle;
 our $schema = ['any', {
     summary => 'Filehandle',
     'x.perl.coerce_rules' => [
-        'validate_filehandle',
+        'From_any::validate_filehandle',
     ],
 }, {}];
 

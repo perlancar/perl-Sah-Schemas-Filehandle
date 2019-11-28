@@ -1,6 +1,8 @@
-package Data::Sah::Coerce::perl::any::validate_dirhandle;
+package Data::Sah::Coerce::perl::To_any::From_any::validate_dirhandle;
 
+# AUTHOR
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -10,6 +12,7 @@ use warnings;
 sub meta {
     +{
         v => 4,
+        summary => 'Validate dirhandle',
         might_fail => 1,
         prio => 50,
     };
@@ -32,7 +35,7 @@ sub coerce {
 }
 
 1;
-# ABSTRACT: Validate dirhandle
+# ABSTRACT:
 
 =for Pod::Coverage ^(meta|coerce)$
 

@@ -6,7 +6,7 @@ package Sah::Schema::dirhandle;
 our $schema = ['any', {
     summary => 'Dirhandle',
     'x.perl.coerce_rules' => [
-        'validate_dirhandle',
+        'From_any::validate_dirhandle',
     ],
 }, {}];
 

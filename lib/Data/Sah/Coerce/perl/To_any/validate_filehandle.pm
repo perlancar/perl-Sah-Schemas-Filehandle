@@ -1,6 +1,8 @@
-package Data::Sah::Coerce::perl::any::validate_filehandle;
+package Data::Sah::Coerce::perl::To_any::From_any::validate_filehandle;
 
+# AUTHOR
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -10,6 +12,7 @@ use warnings;
 sub meta {
     +{
         v => 4,
+        summary => 'Validate filehandle',
         might_fail => 1,
         prio => 50,
     };
@@ -32,7 +35,7 @@ sub coerce {
 }
 
 1;
-# ABSTRACT: Validate filehandle
+# ABSTRACT:
 
 =for Pod::Coverage ^(meta|coerce)$
 
